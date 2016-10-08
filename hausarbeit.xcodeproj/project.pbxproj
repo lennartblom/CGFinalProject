@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2DC64EEF1C74E35F00557902 /* RoomDimension.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2DC64EEB1C74E35F00557902 /* RoomDimension.cpp */; };
+		2DC64EF01C74E35F00557902 /* Wall.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2DC64EED1C74E35F00557902 /* Wall.cpp */; };
+		2DC64EF91C74E39200557902 /* AxisModel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2DC64EF11C74E39200557902 /* AxisModel.cpp */; };
+		2DC64EFA1C74E39200557902 /* FurnitureManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2DC64EF31C74E39200557902 /* FurnitureManager.cpp */; };
+		2DC64EFB1C74E39200557902 /* FurnitureNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2DC64EF51C74E39200557902 /* FurnitureNode.cpp */; };
+		2DC64EFC1C74E39200557902 /* SceneFileWriter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2DC64EF71C74E39200557902 /* SceneFileWriter.cpp */; };
+		2DC64F001C74E3A700557902 /* MoveObjectWithMouseController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2DC64EFE1C74E3A700557902 /* MoveObjectWithMouseController.cpp */; };
+		2DEB50621C68E2FC004CA731 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2DEB50611C68E2FC004CA731 /* main.cpp */; };
+		2DEB506A1C68E310004CA731 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DEB50681C68E310004CA731 /* GLUT.framework */; };
+		2DEB506B1C68E310004CA731 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DEB50691C68E310004CA731 /* OpenGL.framework */; };
+		2DEB507B1C68E339004CA731 /* Material.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2DEB506D1C68E339004CA731 /* Material.cpp */; };
+		2DEB507C1C68E339004CA731 /* Matrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2DEB506F1C68E339004CA731 /* Matrix.cpp */; };
+		2DEB507D1C68E339004CA731 /* Model.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2DEB50711C68E339004CA731 /* Model.cpp */; };
+		2DEB507E1C68E339004CA731 /* RGBImage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2DEB50731C68E339004CA731 /* RGBImage.cpp */; };
+		2DEB50801C68E339004CA731 /* Texture.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2DEB50771C68E339004CA731 /* Texture.cpp */; };
+		2DEB50811C68E339004CA731 /* Vector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2DEB50791C68E339004CA731 /* Vector.cpp */; };
+		2DEB50841C68E364004CA731 /* Camera.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2DEB50821C68E364004CA731 /* Camera.cpp */; };
+		2DEB50871C68E392004CA731 /* Color.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2DEB50851C68E392004CA731 /* Color.cpp */; };
+		2DEB508A1C68E3ED004CA731 /* ShaderProgram.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2DEB50881C68E3ED004CA731 /* ShaderProgram.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2DEB505C1C68E2FC004CA731 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2DC64EEB1C74E35F00557902 /* RoomDimension.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = RoomDimension.cpp; path = room/RoomDimension.cpp; sourceTree = "<group>"; };
+		2DC64EEC1C74E35F00557902 /* RoomDimension.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = RoomDimension.hpp; path = room/RoomDimension.hpp; sourceTree = "<group>"; };
+		2DC64EED1C74E35F00557902 /* Wall.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Wall.cpp; path = room/Wall.cpp; sourceTree = "<group>"; };
+		2DC64EEE1C74E35F00557902 /* Wall.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Wall.hpp; path = room/Wall.hpp; sourceTree = "<group>"; };
+		2DC64EF11C74E39200557902 /* AxisModel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AxisModel.cpp; path = Manager/AxisModel.cpp; sourceTree = "<group>"; };
+		2DC64EF21C74E39200557902 /* AxisModel.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = AxisModel.hpp; path = Manager/AxisModel.hpp; sourceTree = "<group>"; };
+		2DC64EF31C74E39200557902 /* FurnitureManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = FurnitureManager.cpp; path = Manager/FurnitureManager.cpp; sourceTree = "<group>"; };
+		2DC64EF41C74E39200557902 /* FurnitureManager.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = FurnitureManager.hpp; path = Manager/FurnitureManager.hpp; sourceTree = "<group>"; };
+		2DC64EF51C74E39200557902 /* FurnitureNode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = FurnitureNode.cpp; path = Manager/FurnitureNode.cpp; sourceTree = "<group>"; };
+		2DC64EF61C74E39200557902 /* FurnitureNode.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = FurnitureNode.hpp; path = Manager/FurnitureNode.hpp; sourceTree = "<group>"; };
+		2DC64EF71C74E39200557902 /* SceneFileWriter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SceneFileWriter.cpp; path = Manager/SceneFileWriter.cpp; sourceTree = "<group>"; };
+		2DC64EF81C74E39200557902 /* SceneFileWriter.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = SceneFileWriter.hpp; path = Manager/SceneFileWriter.hpp; sourceTree = "<group>"; };
+		2DC64EFD1C74E3A700557902 /* Calculations.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Calculations.hpp; path = math/Calculations.hpp; sourceTree = "<group>"; };
+		2DC64EFE1C74E3A700557902 /* MoveObjectWithMouseController.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MoveObjectWithMouseController.cpp; path = math/MoveObjectWithMouseController.cpp; sourceTree = "<group>"; };
+		2DC64EFF1C74E3A700557902 /* MoveObjectWithMouseController.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = MoveObjectWithMouseController.hpp; path = math/MoveObjectWithMouseController.hpp; sourceTree = "<group>"; };
+		2DEB505E1C68E2FC004CA731 /* hausarbeit */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = hausarbeit; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DEB50611C68E2FC004CA731 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		2DEB50681C68E310004CA731 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GLUT.framework; sourceTree = "<group>"; };
+		2DEB50691C68E310004CA731 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OpenGL.framework; sourceTree = "<group>"; };
+		2DEB506D1C68E339004CA731 /* Material.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Material.cpp; sourceTree = "<group>"; };
+		2DEB506E1C68E339004CA731 /* Material.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Material.h; sourceTree = "<group>"; };
+		2DEB506F1C68E339004CA731 /* Matrix.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Matrix.cpp; sourceTree = "<group>"; };
+		2DEB50701C68E339004CA731 /* matrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = matrix.h; sourceTree = "<group>"; };
+		2DEB50711C68E339004CA731 /* Model.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Model.cpp; sourceTree = "<group>"; };
+		2DEB50721C68E339004CA731 /* Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Model.h; sourceTree = "<group>"; };
+		2DEB50731C68E339004CA731 /* RGBImage.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RGBImage.cpp; sourceTree = "<group>"; };
+		2DEB50741C68E339004CA731 /* RGBImage.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = RGBImage.hpp; sourceTree = "<group>"; };
+		2DEB50771C68E339004CA731 /* Texture.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Texture.cpp; sourceTree = "<group>"; };
+		2DEB50781C68E339004CA731 /* Texture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Texture.h; sourceTree = "<group>"; };
+		2DEB50791C68E339004CA731 /* Vector.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Vector.cpp; sourceTree = "<group>"; };
+		2DEB507A1C68E339004CA731 /* Vector.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Vector.hpp; sourceTree = "<group>"; };
+		2DEB50821C68E364004CA731 /* Camera.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Camera.cpp; sourceTree = "<group>"; };
+		2DEB50831C68E364004CA731 /* Camera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Camera.h; sourceTree = "<group>"; };
+		2DEB50851C68E392004CA731 /* Color.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Color.cpp; sourceTree = "<group>"; };
+		2DEB50861C68E392004CA731 /* Color.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Color.hpp; sourceTree = "<group>"; };
+		2DEB50881C68E3ED004CA731 /* ShaderProgram.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ShaderProgram.cpp; sourceTree = "<group>"; };
+		2DEB50891C68E3ED004CA731 /* ShaderProgram.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShaderProgram.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2DEB505B1C68E2FC004CA731 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DEB506A1C68E310004CA731 /* GLUT.framework in Frameworks */,
+				2DEB506B1C68E310004CA731 /* OpenGL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2D1520E31C6A148500664C52 /* Shaderprograms */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Shaderprograms;
+			sourceTree = "<group>";
+		};
+		2DDFE95B1C69F00E000F2036 /* Math */ = {
+			isa = PBXGroup;
+			children = (
+				2DC64EFD1C74E3A700557902 /* Calculations.hpp */,
+				2DC64EFE1C74E3A700557902 /* MoveObjectWithMouseController.cpp */,
+				2DC64EFF1C74E3A700557902 /* MoveObjectWithMouseController.hpp */,
+			);
+			name = Math;
+			sourceTree = "<group>";
+		};
+		2DEB50551C68E2FC004CA731 = {
+			isa = PBXGroup;
+			children = (
+				2DEB50681C68E310004CA731 /* GLUT.framework */,
+				2DEB50691C68E310004CA731 /* OpenGL.framework */,
+				2DEB506C1C68E339004CA731 /* classes */,
+				2DEB50601C68E2FC004CA731 /* hausarbeit */,
+				2DEB505F1C68E2FC004CA731 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2DEB505F1C68E2FC004CA731 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2DEB505E1C68E2FC004CA731 /* hausarbeit */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2DEB50601C68E2FC004CA731 /* hausarbeit */ = {
+			isa = PBXGroup;
+			children = (
+				2DEB50611C68E2FC004CA731 /* main.cpp */,
+				2D1520E31C6A148500664C52 /* Shaderprograms */,
+				2DDFE95B1C69F00E000F2036 /* Math */,
+				2DEB50991C68F796004CA731 /* Manager */,
+				2DEB50951C68F641004CA731 /* Room */,
+			);
+			path = hausarbeit;
+			sourceTree = "<group>";
+		};
+		2DEB506C1C68E339004CA731 /* classes */ = {
+			isa = PBXGroup;
+			children = (
+				2DEB508F1C68F28A004CA731 /* Math */,
+				2DEB508E1C68F276004CA731 /* Shader */,
+				2DEB50901C68F2CD004CA731 /* Model */,
+				2DEB50911C68F2DE004CA731 /* Helpclasses */,
+			);
+			path = classes;
+			sourceTree = "<group>";
+		};
+		2DEB508E1C68F276004CA731 /* Shader */ = {
+			isa = PBXGroup;
+			children = (
+				2DEB506E1C68E339004CA731 /* Material.h */,
+				2DEB506D1C68E339004CA731 /* Material.cpp */,
+				2DEB50881C68E3ED004CA731 /* ShaderProgram.cpp */,
+				2DEB50891C68E3ED004CA731 /* ShaderProgram.h */,
+			);
+			name = Shader;
+			sourceTree = "<group>";
+		};
+		2DEB508F1C68F28A004CA731 /* Math */ = {
+			isa = PBXGroup;
+			children = (
+				2DEB50851C68E392004CA731 /* Color.cpp */,
+				2DEB50861C68E392004CA731 /* Color.hpp */,
+				2DEB506F1C68E339004CA731 /* Matrix.cpp */,
+				2DEB50701C68E339004CA731 /* matrix.h */,
+				2DEB50791C68E339004CA731 /* Vector.cpp */,
+				2DEB507A1C68E339004CA731 /* Vector.hpp */,
+			);
+			name = Math;
+			sourceTree = "<group>";
+		};
+		2DEB50901C68F2CD004CA731 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2DEB50711C68E339004CA731 /* Model.cpp */,
+				2DEB50721C68E339004CA731 /* Model.h */,
+				2DEB50771C68E339004CA731 /* Texture.cpp */,
+				2DEB50781C68E339004CA731 /* Texture.h */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		2DEB50911C68F2DE004CA731 /* Helpclasses */ = {
+			isa = PBXGroup;
+			children = (
+				2DEB50821C68E364004CA731 /* Camera.cpp */,
+				2DEB50831C68E364004CA731 /* Camera.h */,
+				2DEB50731C68E339004CA731 /* RGBImage.cpp */,
+				2DEB50741C68E339004CA731 /* RGBImage.hpp */,
+			);
+			name = Helpclasses;
+			sourceTree = "<group>";
+		};
+		2DEB50951C68F641004CA731 /* Room */ = {
+			isa = PBXGroup;
+			children = (
+				2DC64EEB1C74E35F00557902 /* RoomDimension.cpp */,
+				2DC64EEC1C74E35F00557902 /* RoomDimension.hpp */,
+				2DC64EED1C74E35F00557902 /* Wall.cpp */,
+				2DC64EEE1C74E35F00557902 /* Wall.hpp */,
+			);
+			name = Room;
+			sourceTree = "<group>";
+		};
+		2DEB50991C68F796004CA731 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				2DC64EF11C74E39200557902 /* AxisModel.cpp */,
+				2DC64EF21C74E39200557902 /* AxisModel.hpp */,
+				2DC64EF81C74E39200557902 /* SceneFileWriter.hpp */,
+				2DC64EF71C74E39200557902 /* SceneFileWriter.cpp */,
+				2DC64EF51C74E39200557902 /* FurnitureNode.cpp */,
+				2DC64EF61C74E39200557902 /* FurnitureNode.hpp */,
+				2DC64EF41C74E39200557902 /* FurnitureManager.hpp */,
+				2DC64EF31C74E39200557902 /* FurnitureManager.cpp */,
+			);
+			name = Manager;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2DEB505D1C68E2FC004CA731 /* hausarbeit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DEB50651C68E2FC004CA731 /* Build configuration list for PBXNativeTarget "hausarbeit" */;
+			buildPhases = (
+				2DEB505A1C68E2FC004CA731 /* Sources */,
+				2DEB505B1C68E2FC004CA731 /* Frameworks */,
+				2DEB505C1C68E2FC004CA731 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = hausarbeit;
+			productName = hausarbeit;
+			productReference = 2DEB505E1C68E2FC004CA731 /* hausarbeit */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2DEB50561C68E2FC004CA731 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Lennart Blom";
+				TargetAttributes = {
+					2DEB505D1C68E2FC004CA731 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 2DEB50591C68E2FC004CA731 /* Build configuration list for PBXProject "hausarbeit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2DEB50551C68E2FC004CA731;
+			productRefGroup = 2DEB505F1C68E2FC004CA731 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2DEB505D1C68E2FC004CA731 /* hausarbeit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2DEB505A1C68E2FC004CA731 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DC64EF91C74E39200557902 /* AxisModel.cpp in Sources */,
+				2DEB507C1C68E339004CA731 /* Matrix.cpp in Sources */,
+				2DEB50801C68E339004CA731 /* Texture.cpp in Sources */,
+				2DC64EFB1C74E39200557902 /* FurnitureNode.cpp in Sources */,
+				2DEB507B1C68E339004CA731 /* Material.cpp in Sources */,
+				2DEB50621C68E2FC004CA731 /* main.cpp in Sources */,
+				2DEB50841C68E364004CA731 /* Camera.cpp in Sources */,
+				2DEB507D1C68E339004CA731 /* Model.cpp in Sources */,
+				2DC64EEF1C74E35F00557902 /* RoomDimension.cpp in Sources */,
+				2DC64EF01C74E35F00557902 /* Wall.cpp in Sources */,
+				2DEB507E1C68E339004CA731 /* RGBImage.cpp in Sources */,
+				2DEB508A1C68E3ED004CA731 /* ShaderProgram.cpp in Sources */,
+				2DC64EFA1C74E39200557902 /* FurnitureManager.cpp in Sources */,
+				2DC64F001C74E3A700557902 /* MoveObjectWithMouseController.cpp in Sources */,
+				2DEB50871C68E392004CA731 /* Color.cpp in Sources */,
+				2DC64EFC1C74E39200557902 /* SceneFileWriter.cpp in Sources */,
+				2DEB50811C68E339004CA731 /* Vector.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2DEB50631C68E2FC004CA731 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		2DEB50641C68E2FC004CA731 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		2DEB50661C68E2FC004CA731 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2DEB50671C68E2FC004CA731 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2DEB50591C68E2FC004CA731 /* Build configuration list for PBXProject "hausarbeit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DEB50631C68E2FC004CA731 /* Debug */,
+				2DEB50641C68E2FC004CA731 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2DEB50651C68E2FC004CA731 /* Build configuration list for PBXNativeTarget "hausarbeit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DEB50661C68E2FC004CA731 /* Debug */,
+				2DEB50671C68E2FC004CA731 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2DEB50561C68E2FC004CA731 /* Project object */;
+}
